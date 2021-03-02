@@ -161,11 +161,10 @@ section .title::after{
     filter: brightness(90%);
 }
 
-  
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner2.jpg") no-repeat;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -232,9 +231,6 @@ section .title::after{
 }
 .about .about-content .right .text span{
     color: #17bed2;
-}
-.about .about-content .right p{
-    text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
@@ -312,9 +308,6 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
-.skills .skills-content .left p{
-    text-align: justify;
-}
 .skills .skills-content .left a{
     display: inline-block;
     background: #17bed2;
@@ -359,19 +352,7 @@ section .title::after{
     background: #17bed2;
 }
 .skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 60%;
-}
-.skills-content .right .js::before{
-    width: 80%;
-}
-.skills-content .right .php::before{
-    width: 50%;
-}
-.skills-content .right .mysql::before{
-    width: 70%;
+    width: 100%;
 }
 
 /* teams section styling */
@@ -450,9 +431,6 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.contact .contact-content .left p{
-    text-align: justify;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -567,7 +545,7 @@ footer span a:hover{
         flex: 100%;
     }
     .services .serv-content .card{
-        width: calc(50% - 10px);
+        width: 100%;
         margin-bottom: 20px;
     }
     .skills .skills-content .column,
